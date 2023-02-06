@@ -94,10 +94,10 @@
     border: 3px solid rgba(130, 89, 239, 1.00);
 }
 
-.title.complete::before {
+.complete .title::before {
     background: rgb(0, 180, 0);
 }
-.title.error::before {
+.error .title::before {
     background: rgb(195, 0, 0);
 }
 
@@ -117,7 +117,7 @@
 }
 
 .test-suite {
-    animation: fade 2s;
+    animation: fade 1s;
 }
 
 @keyframes fade {
