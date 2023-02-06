@@ -19,6 +19,7 @@
   
 .account-form-group {
     position: relative;
+    white-space: nowrap;
   }
   
   .account-form-input {
